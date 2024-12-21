@@ -3,27 +3,12 @@
 @tailwind utilities;
 
 body {
-  font-family: 'Black Chancery', sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
-  }
-
-  /* Animación de nieve */
-  .snowfall {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: url('/snowflakes.png') repeat;
-    animation: snow 10s linear infinite;
-    opacity: 0.5;
-  }
-
-  @keyframes snow {
-    from { background-position: 0 0; }
-    to { background-position: 1000px 1000px; }
   }
 }
 
@@ -81,7 +66,9 @@ body {
     --chart-4: 280 65% 60%;
     --chart-5: 340 75% 55%;
   }
+}
 
+@layer base {
   * {
     @apply border-border;
   }
