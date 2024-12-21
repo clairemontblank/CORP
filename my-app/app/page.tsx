@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-gray-50">
       <Header />
-      <main className="astrowind-main">
+      <main>
         <Hero />
         <ResearchPublications />
         <Events />

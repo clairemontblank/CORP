@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@import 'astrowind/base';
-@import 'astrowind/components';
-@import 'astrowind/utilities';
-
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
